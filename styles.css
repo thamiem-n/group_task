@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+}
+
+header {
+    padding: 0 0 17px 0;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
+
+header h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+section {
+    margin: 35px 0;
+}
+
+section h2 {
+    text-align: center;
+    color: darkblue;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 22px;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: darkblue;
+    color: white;
+    font-size: 1.7em;
+}
+
+tbody tr:nth-child(odd) {
+    background: lightblue;
+}
+
+tbody tr:nth-child(even) {
+    background: lightgoldenrodyellow;
+}
+
+td {
+    font-size: 1.3em;
+    border: 1px solid darkblue;
+}
+
+img {
+    float: left;
+    margin-right: 53px;
+
+}
+
+.link {
+    position: relative;
+}
+
+a { padding: 11px;
+    border: 4px solid darkblue;
+    border-radius: 22px;
+}
